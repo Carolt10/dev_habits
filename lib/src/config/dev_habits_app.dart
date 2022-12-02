@@ -1,4 +1,4 @@
-import 'package:dev_habits/src/features/on_boarding/on_boarning_screen.dart';
+import 'package:dev_habits/src/features/on_boarding/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 class DevHabitsApp extends StatelessWidget {
@@ -7,7 +7,7 @@ class DevHabitsApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: OnBoardingScreen(),
+      home: SplashScreen(),
     );
   }
 }
